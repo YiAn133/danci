@@ -1,0 +1,4 @@
+# drizzle-kit 依赖 esbuild，需要显式允许它执行安装脚本。
+# pnpm v10+ 默认禁止依赖执行构建脚本，未列出的包会报 ERR_PNPM_IGNORED_BUILDS。
+allowBuilds:
+  esbuild: true
